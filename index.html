@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="lol()" id="click1" style="width: 100%; height: 97vh; font-size: 100px; color: lime">
+    0
+</button>
+<audio id="click2" controls>
+    <source src="Sound_16341.mp3" type="audio/mpeg">
+  </audio>
+<script>
+    i1=0
+    function lol() {
+        console.log('lol')
+        i1+=1
+        document.getElementById("click1").innerHTML=i1
+         document.getElementById("click1").setAttribute("style","background:url('3.jpg'); color: lime;width: 100%; height: 97vh; font-size: 100px")
+        document.getElementById("click2").play("style display non")
+    }
+</script>
+</body>
+</html>
